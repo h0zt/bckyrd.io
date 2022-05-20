@@ -4,10 +4,12 @@
 @font-face {
     src: url("Roboto-Thin.woff2") format("opentype");
     font-family: 'Roboto';
+    font-display: swap;
 }
 @font-face {
     src: url("AdobeCleanUX-Light.woff2") format("opentype");
     font-family: 'Adobe';
+    font-display: swap;
 }
 
 /***

@@ -75,7 +75,7 @@
                 <p id="a"><a href="" class="active">work with us</a></p>
                 <div id="text">
                     these are qualities that makes us owesome to work with. which makes you come 
-                    back for more projects .
+                    back for more projects.
                 </div>
             </div>
        </div>
