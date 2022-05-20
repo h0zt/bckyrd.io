@@ -1,12 +1,12 @@
 /**
-*IMPORT OFFLINE FONTS
+*IMPORT PRELOADED OFFLINE FONTS
 */
 @font-face {
-    src: url("Roboto-Thin.ttf") format("opentype");
+    src: url("Roboto-Thin.woff2") format("opentype");
     font-family: 'Roboto';
 }
 @font-face {
-    src: url("AdobeCleanUXLight.otf") format("opentype");
+    src: url("AdobeCleanUX-Light.woff2") format("opentype");
     font-family: 'Adobe';
 }
 
@@ -20,9 +20,9 @@
     --glw:0 0 4px #fff, 0 0 4px #fff,0 0 4px #fff,
         0 0 4px #00ffc8,0 0 4px #00ffc8,0 0 4px #00ffc8,
         0 0 4px #00ffc8,0 0 8px #fff;
-    --neo:0 0 0.25px #fff, 0 0 0.25px #fff,0 0 0.25px #fff,
-        0 0 0.25px #00ffc8,0 0 0.25px #00ffc8,0 0 0.25px #00ffc8,
-        0 0 0.25px #00ffc8,0 0 4px#fff;
+    --neo:0 0 1px #fff, 0 0 1px #fff,0 0 1px #fff,
+        0 0 1px #00ffc883,0 0 1px #00ffc883,0 0 0.1px #00ffc883,
+        0 0 1px #00ffc883,0 0 3px #00ffc883;
     --shd:rgba(0, 0, 0, 0.2) 0px 6px 20px 0px;
         /**0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);**/
@@ -44,12 +44,12 @@
     max-height: 200px !important;
     background:linear-gradient(var(--dpr),var(--ltr),
     var(--neo)); border-radius: .1vh;}
-.active{color: var(--lit);}
+.active{color: var(--lit);filter: brightness(100%); }
 .active:hover{
     color: var(--lit) !important ;
     text-shadow: var(--neo) !important;
     filter: brightness(100%);}
-.lit{color:var(--lit) !important ;text-shadow: var(--neo);}
+.lit{color:var(--lit) !important ;}
 .lit:hover{color: var(--lit);text-shadow:none !important;}
 body#____STORE ::-webkit-scrollbar{width: 6px;
     max-height: 200px !important;    
@@ -82,6 +82,7 @@ html,body{
     color: var(--clr);
     height: var(--max);
     width: var(--max);
+    word-spacing: 1em;
     font-family: var(--fnt);
 }
 nav{
@@ -621,7 +622,6 @@ body#____BLOG .MID p{
     text-align: justify;
     border-radius: 1vh;
     font-size: var(--fnt-mid);
-    word-spacing: 7px;
     margin-bottom: 3vh;
 }
 body#____BLOG .MID img{box-shadow: var(--shd);border: solid 4px var(--ltr);}

@@ -7,11 +7,13 @@
     <title>backyard</title>
     <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="res/host.css">
+    <link rel="preload" href="res/AdobeCleanUX-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="res/Roboto-Thin.woff2" as="font" type="font/woff2" crossorigin>
     <!--META-OPTIMIZE--->
     <meta name="keywords" 
         content="backyard workstation, backyard, workstation,
         electronics agency,software agency, arduino programming,
-        Smart Systems, web development, programmer, Android development ">
+        Smart Systems, web development, programmer, Android development">
     <meta name="description"
         content="An Electronics Company That Gets Your Systems Fixed.">
 </head>
